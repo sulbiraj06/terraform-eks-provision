@@ -10,12 +10,12 @@ variable "region" {
 variable "Cluster_name" {
   description = "Cluster Name"
   type = string
-  default = "Giovanni"
+  default = "eks-dev"
 }
 
 variable "VPC_name" {
   description = "VPC Name"
   type = string
-  default = "VPC_giovanni"
+  default = "VPC_DEV"
   
 }
